@@ -3,7 +3,7 @@
   <img alt="snehanshn" src="assets/header-light.svg" width="520">
 </picture>
 
-CS + Math at Rutgers. Engineer at [NovaFlow](https://www.novaflowapp.com).
+CS + Math at Rutgers. ML intern at [NovaFlow](https://www.novaflowapp.com).
 
 Most of my code takes raw Solana transactions and turns them into something a human can read. Fair is fair:
 
@@ -15,7 +15,7 @@ Most of my code takes raw Solana transactions and turns them into something a hu
   "accounts": ["yuno-research", "NovaFlow", "Rutgers CS + Math"],
   "instructions": [
     "decode Solana transactions into things humans can read",
-    "ship product at NovaFlow",
+    "ship ML at NovaFlow",
     "enter hackathons at an unreasonable rate"
   ],
   "recent_activity": "pushed to SnehanshnC/snehanshn-site on 2026-07-13",
