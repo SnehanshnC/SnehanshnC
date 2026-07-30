@@ -19,7 +19,7 @@ Most of my code takes raw Solana transactions and turns them into something a hu
     "enter hackathons at an unreasonable rate"
   ],
   "recent_activity": "pushed to SnehanshnC/snehanshn-site on 2026-07-13",
-  "logs": "https://snehanshn.com"
+  "logs": "https://snehanshn-site.vercel.app"
 }
 ```
 
@@ -29,4 +29,4 @@ Most of my code takes raw Solana transactions and turns them into something a hu
 - [solana_central](https://github.com/yuno-research/solana_central) - the shared types, IDLs, and DEX pool state everything else leans on. Also Rust.
 - [marketowl](https://github.com/rayedchow/marketowl), [honeyflow](https://github.com/rayedchow/honeyflow), [quarry-ai](https://github.com/rayedchow/quarry-ai) - hackathon builds with friends (HackPrinceton, ETHDenver, HackRU). Some went well.
 
-More at [snehanshn.com](https://snehanshn.com). There's a terminal in there. Press `/`.
+More at [snehanshn-site.vercel.app](https://snehanshn-site.vercel.app). There's a terminal in there. Press `/`.
