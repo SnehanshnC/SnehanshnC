@@ -1,0 +1,36 @@
+name: decode-recent-activity
+on:
+  schedule:
+    - cron: "17 6 * * *"
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  decode:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: decode latest public push
+        run: |
+          set -euo pipefail
+          EVENT=$(curl -fsS -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" \
+            "https://api.github.com/users/SnehanshnC/events/public?per_page=100" \
+            | jq -r '[.[] | select(.type=="PushEvent")][0] // empty | "\(.repo.name)|\(.created_at)"')
+          if [ -z "$EVENT" ]; then
+            echo "no public push events; leaving README unchanged"
+            exit 0
+          fi
+          REPO="${EVENT%%|*}"
+          TS="${EVENT##*|}"
+          DATE="${TS%%T*}"
+          NEW="pushed to ${REPO} on ${DATE}"
+          sed -i -E "s|\"recent_activity\": \"[^\"]*\"|\"recent_activity\": \"${NEW}\"|" README.md
+          if git diff --quiet; then
+            echo "no change"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git commit -m "decode: recent activity"
+          git push
