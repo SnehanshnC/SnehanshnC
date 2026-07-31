@@ -18,7 +18,7 @@ Most of my code takes raw Solana transactions and turns them into something a hu
     "ship ML at NovaFlow",
     "enter hackathons at an unreasonable rate"
   ],
-  "recent_activity": "pushed to SnehanshnC/snehanshn-site on 2026-07-13",
+  "recent_activity": "pushed to SnehanshnC/SnehanshnC on 2026-07-30",
   "logs": "https://snehanshn-site.vercel.app"
 }
 ```
