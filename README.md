@@ -1,7 +1,7 @@
 # hey, i'm sne 👋
 
 CS + Math at Rutgers.
-AI engineer intern at [NovaFlow](https://www.novaflowapp.com) (YC S25).
+Prev AI engineer intern at [NovaFlow](https://www.novaflowapp.com) (YC S25).
 
 I turn raw Solana transactions into things humans can read, and I enter hackathons at an unreasonable rate (HackNYU 1st, JerseyCTF 1st, 3x HackRU 1st).
 
