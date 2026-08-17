@@ -15,7 +15,7 @@ jobs:
     permissions:
       contents: write
     steps:
-      # Palettes match assets/header-*.svg: amber #f2a33c on brown #211d16.
+      # Palette: amber #f2a33c on brown #211d16.
       - name: generate snake from the contribution grid
         uses: Platane/snk@v3
         with:
