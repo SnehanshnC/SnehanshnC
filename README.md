@@ -5,7 +5,7 @@ Prev AI engineer intern at [NovaFlow](https://www.novaflowapp.com) (YC S25).
 
 I've previously worked with Solana, AI, and ML (briefly)... and I love building which is why I do a ton of hackathons (HackNYU 1st, JerseyCTF 1st, 3x HackRU 1st).
 
-personal:
+
 ssh snehanshn.duckdns.org
 
 quick overview about me ^
